@@ -23,7 +23,7 @@ namespace GameDemo
             Gamer gamer3 = new Gamer() { GamerId = 103, GamerFirstName = "Emine", GamerLastName = "Kabasakal", GamerNationalId = 53971267774, DateOfBirth = new DateTime(1980, 8, 1) };
             gamerManagerServices.Add(gamer3);
 
-            Gamer gamer4 = new Gamer() { GamerId = 104, GamerFirstName = "Elif", GamerLastName = "Er", GamerNationalId = 24567413204, DateOfBirth = new DateTime(2020, 6, 7) };
+            Gamer gamer4 = new Gamer() { GamerId = 104, GamerFirstName = "Metin", GamerLastName = "Er", GamerNationalId = 24567413204, DateOfBirth = new DateTime(2020, 6, 7) };
             gamerManagerServices.Add(gamer4);
 
             List<Gamer> gamers = new List<Gamer> { gamer1, gamer2, gamer3, gamer4 };
